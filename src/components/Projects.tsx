@@ -33,12 +33,12 @@ const projects: Project[] = [
     link: "https://github.com/marwamousa240020/projects/tree/main/stock-market-prediction",
   },
   {
-    title: "Data Exploration Dashboard",
+    title: "Road Safety SDG Dashboard",
     category: "BI",
     categoryColor: "sky",
     description:
-      "Built interactive Power BI dashboards to explore and visualise datasets as part of foundational data science work, developing skills in data wrangling, storytelling, and Python scripting.",
-    tags: ["Power BI", "Python", "Data Viz", "EDA"],
+      "Built a Power BI dashboard analysing alcohol-related road traffic accidents in Great Britain, aligned with SDG 3 (health & road safety). Used UK GOV data to explore collision trends by severity, region, and demographics — engineering features like severity ratios, intervention period indicators, and population-normalised regional risk scores.",
+    tags: ["Power BI", "Python", "CRISP-DM", "DAX", "SDG"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
     link: "https://github.com/marwamousa240020/projects/tree/main/data-dashboard",
   },
