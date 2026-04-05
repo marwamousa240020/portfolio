@@ -9,6 +9,7 @@ const projects: Project[] = [
     description:
       "Built an AI-powered skin-tone image classifier for Innovation Square at BUas. Combined a TensorFlow/Keras deep learning model with Grad-CAM explainability, bias analysis, and a human-centered UI prototype — pitched as a venture to BUas Startup Support.",
     tags: ["TensorFlow", "Keras", "Grad-CAM", "XAI", "UX Design"],
+    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80",
   },
   {
     title: "Healthcare ML Analysis",
@@ -17,6 +18,7 @@ const projects: Project[] = [
     description:
       "Analysed healthcare datasets (diabetes, house prices) by building and comparing classification, regression, and clustering models. Evaluated model performance and serialised the best models for deployment.",
     tags: ["scikit-learn", "Pandas", "NumPy", "Logistic Regression", "Clustering"],
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop&q=80",
   },
   {
     title: "Stock Market Prediction Engine",
@@ -25,6 +27,7 @@ const projects: Project[] = [
     description:
       "Collaborated with a team and individually for Move Tickers to predict NASDAQ-100 opening gaps and trading dynamics. Built production-ready ML pipelines with XGBoost and a deep neural network, using global market indices, macroeconomic indicators, and time series forecasting.",
     tags: ["XGBoost", "TensorFlow", "Time Series", "PostgreSQL", "pytest"],
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop&q=80",
   },
   {
     title: "Data Exploration Dashboard",
@@ -33,6 +36,7 @@ const projects: Project[] = [
     description:
       "Built interactive Power BI dashboards to explore and visualise datasets as part of foundational data science work, developing skills in data wrangling, storytelling, and Python scripting.",
     tags: ["Power BI", "Python", "Data Viz", "EDA"],
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
   },
 ];
 
