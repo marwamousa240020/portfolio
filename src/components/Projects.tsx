@@ -10,6 +10,7 @@ const projects: Project[] = [
       "Built an AI-powered skin-tone image classifier for Innovation Square at BUas. Combined a TensorFlow/Keras deep learning model with Grad-CAM explainability, bias analysis, and a human-centered UI prototype — pitched as a venture to BUas Startup Support.",
     tags: ["TensorFlow", "Keras", "Grad-CAM", "XAI", "UX Design"],
     image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80",
+    link: "https://github.com/marwamousa240020/projects/tree/main/skin-tone-classifier",
   },
   {
     title: "Healthcare ML Analysis",
@@ -19,6 +20,7 @@ const projects: Project[] = [
       "Analysed healthcare datasets (diabetes, house prices) by building and comparing classification, regression, and clustering models. Evaluated model performance and serialised the best models for deployment.",
     tags: ["scikit-learn", "Pandas", "NumPy", "Logistic Regression", "Clustering"],
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop&q=80",
+    link: "https://github.com/marwamousa240020/projects/tree/main/healthcare-ml",
   },
   {
     title: "Stock Market Prediction Engine",
@@ -28,6 +30,7 @@ const projects: Project[] = [
       "Collaborated with a team and individually for Move Tickers to predict NASDAQ-100 opening gaps and trading dynamics. Built production-ready ML pipelines with XGBoost and a deep neural network, using global market indices, macroeconomic indicators, and time series forecasting.",
     tags: ["XGBoost", "TensorFlow", "Time Series", "PostgreSQL", "pytest"],
     image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop&q=80",
+    link: "https://github.com/marwamousa240020/projects/tree/main/stock-market-prediction",
   },
   {
     title: "Data Exploration Dashboard",
@@ -37,6 +40,7 @@ const projects: Project[] = [
       "Built interactive Power BI dashboards to explore and visualise datasets as part of foundational data science work, developing skills in data wrangling, storytelling, and Python scripting.",
     tags: ["Power BI", "Python", "Data Viz", "EDA"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
+    link: "https://github.com/marwamousa240020/projects/tree/main/data-dashboard",
   },
   {
     title: "Arabic Emotion Analysis Pipeline",
@@ -46,6 +50,7 @@ const projects: Project[] = [
       "Built an end-to-end multilingual NLP pipeline that transcribes Arabic speech with Whisper, translates it using Meta's NLLB model, and classifies emotions with a fine-tuned DeBERTa-v3-large transformer — achieving a weighted F1 of 0.646 across 7 emotion categories.",
     tags: ["Transformers", "Whisper", "DeBERTa", "SHAP", "PyTorch"],
     image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&auto=format&fit=crop&q=80",
+    link: "https://github.com/marwamousa240020/projects/tree/main/arabic-emotion-analysis",
   },
   {
     title: "Computer Vision & Robot Control",
@@ -55,6 +60,7 @@ const projects: Project[] = [
       "Applied computer vision to plant phenotyping (Petri dish detection with OpenCV) and trained a reinforcement learning agent using PPO to control an OT-2 lab robot pipette — benchmarking it against a classical PID controller in a simulated Gymnasium environment.",
     tags: ["OpenCV", "Stable-Baselines3", "PyTorch", "Gymnasium", "PyBullet"],
     image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
+    link: "https://github.com/marwamousa240020/projects/tree/main/cv-robot-control",
   },
 ];
 

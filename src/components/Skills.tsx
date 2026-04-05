@@ -4,17 +4,27 @@ const categories = [
   {
     title: "Languages & Tools",
     color: "bg-lavender text-lavender-foreground",
-    skills: ["Python", "SQL"],
+    skills: ["Python", "SQL", "Jupyter", "Git"],
   },
   {
     title: "ML & Data",
     color: "bg-peach text-peach-foreground",
-    skills: ["Machine Learning", "Computer Vision", "Robotics"],
+    skills: ["scikit-learn", "TensorFlow", "PyTorch", "XGBoost", "Stable-Baselines3", "OpenCV", "Pandas", "NumPy"],
   },
   {
-    title: "Core Skills",
+    title: "NLP",
+    color: "bg-lavender text-lavender-foreground",
+    skills: ["Hugging Face", "DeBERTa", "Whisper", "NLLB", "SHAP", "Regex"],
+  },
+  {
+    title: "BI & Visualisation",
     color: "bg-mint text-mint-foreground",
-    skills: ["Data Pipelines", "Model Development", "System Integration"],
+    skills: ["Power BI", "Matplotlib", "Seaborn"],
+  },
+  {
+    title: "MLOps & Engineering",
+    color: "bg-rose text-rose-foreground",
+    skills: ["PostgreSQL", "pytest", "Poetry", "MLOps", "Gymnasium"],
   },
 ];
 
@@ -31,7 +41,7 @@ const Skills = () => {
           Skills & Technologies
         </motion.h2>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {categories.map((cat, i) => (
             <motion.div
               key={cat.title}
