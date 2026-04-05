@@ -1,5 +1,5 @@
 export default defineConfig(({ mode }) => ({
-  base: "/portfoilo/", // 👈 ADD THIS LINE
+  base: "/portfolio/", // 👈 ADD THIS LINE
   server: {
     host: "::",
     port: 8080,
