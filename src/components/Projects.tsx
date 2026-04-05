@@ -38,6 +38,24 @@ const projects: Project[] = [
     tags: ["Power BI", "Python", "Data Viz", "EDA"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
   },
+  {
+    title: "Arabic Emotion Analysis Pipeline",
+    category: "NLP",
+    categoryColor: "lavender",
+    description:
+      "Built an end-to-end multilingual NLP pipeline that transcribes Arabic speech with Whisper, translates it using Meta's NLLB model, and classifies emotions with a fine-tuned DeBERTa-v3-large transformer — achieving a weighted F1 of 0.646 across 7 emotion categories.",
+    tags: ["Transformers", "Whisper", "DeBERTa", "SHAP", "PyTorch"],
+    image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    title: "Computer Vision & Robot Control",
+    category: "CV + RL",
+    categoryColor: "rose",
+    description:
+      "Applied computer vision to plant phenotyping (Petri dish detection with OpenCV) and trained a reinforcement learning agent using PPO to control an OT-2 lab robot pipette — benchmarking it against a classical PID controller in a simulated Gymnasium environment.",
+    tags: ["OpenCV", "Stable-Baselines3", "PyTorch", "Gymnasium", "PyBullet"],
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
+  },
 ];
 
 const Projects = () => {
